@@ -1,0 +1,6 @@
+Author: Alec S
+atex, a redesigning of latex with customizable syntax
+to use: download atex.py and atexlib.py and the atex bash script. Then, write your .atex file and run ./atex foo.atex and the program will do everything else
+To customize the language, look at the comments at the top of atex.py filei
+Questions? email linuxbash8@gmail.com
+

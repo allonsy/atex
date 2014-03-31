@@ -1,0 +1,10 @@
+#!/bin/bash
+#Alec Snyder
+#autocompiler for tex files
+./atex.py $1
+file=${1:0:(-5)}
+newFile=$file".tex"
+pdflatex $newFile
+rm $file".log"
+rm $file".aux"
+exit 0
